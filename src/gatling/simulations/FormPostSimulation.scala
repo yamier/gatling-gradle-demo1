@@ -18,7 +18,7 @@ class FormPostSimulation extends SimulationBase {
       .exec(
         http("Post")
           .post("/computers")
-          .formParam("name", "Yang Computer Test")
+          .formParam("name", "Yang Computer Test Form")
           .formParam("introduced", "2020-05-13")
           .formParam("discontinued", "")
           .formParam("company", "37")
@@ -27,8 +27,7 @@ class FormPostSimulation extends SimulationBase {
 
   val scnGetHome = scenario("GetHomeSimulation").exec(GetHome.getHome)
   val scnFormPost = scenario("FormPostSimulation").exec(FormPost.edit)
-
-  //每5秒注入一个用户
+  
   setUp(
     scnGetHome.inject(rampUsers(10) over(10)),
     scnFormPost.inject(rampUsers(2) over(10))

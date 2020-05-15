@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.JsonPostSimulation",
+  "simulationId": "jsonpostsimulation",
+  "start": 1589507581998,
+  "description": "",
+  "scenarios": ["json string scenario", "json file scenario"],
+  "assertions": [
+
+  ]
+}
