@@ -1,9 +1,0 @@
-RUN	simulations.JsonPostSimulation		jsonpostsimulation	1589507581998	 	2.0
-USER	json string scenario	1	START	1589507583352	1589507583352
-USER	json file scenario	2	START	1589507583982	1589507583982
-REQUEST	json file scenario	2		test_json_file	1589507583993	1589507584741	OK	 
-REQUEST	json string scenario	1		test_json_string	1589507583377	1589507584741	OK	 
-REQUEST	json string scenario	1		test_json_string Redirect 1	1589507584759	1589507592000	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 404
-USER	json string scenario	1	END	1589507583352	1589507592020
-REQUEST	json file scenario	2		test_json_file Redirect 1	1589507584759	1589507592479	KO	status.find.in(200,304,201,202,203,204,205,206,207,208,209), but actually found 404
-USER	json file scenario	2	END	1589507583982	1589507592481
