@@ -1,0 +1,28 @@
+
+plugins {
+    id "com.github.lkishalmi.gatling" version "0.7.3"
+}
+
+apply plugin: 'scala'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'http://repository.excilys.com/content/groups/public'
+    }
+}
+
+gatling {
+    jvmArgs = [ '-server', '-Xms512M', '-Xmx512M' ]
+    simulations = {
+        include "simulations/*.scala"
+    }
+}
+
+dependencies {
+    gatlingCompile 'com.google.code.gson:gson:2.8.0'
+    compile 'org.scala-lang:scala-library:2.11.8'
+    testCompile('io.gatling.highcharts:gatling-charts-highcharts:2.3.1')
+}
+
+

@@ -1,0 +1,43 @@
+products:
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/build/classes/scala/gatling/simulations/CsvFeedSimulation.class
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/build/classes/scala/gatling/simulations/FormPostSimulation.class
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/build/classes/scala/gatling/simulations/GetSimulation.class
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/build/classes/scala/gatling/simulations/JsonPostSimulation.class
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala -> /Users/yaoyang/code/gatling-gradle-demo1/build/classes/scala/gatling/base/SimulationBase.class
+binary dependencies:
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/2.3.1/f0bf9b23929d9cd2de228de0b533c15ddf28df45/gatling-commons-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.3.1/84a413fee33fe24c13993633436d2dbc119a584b/gatling-core-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.3.1/82fb51cba4a82d4c8fb3aa66510592eaa1188b8e/gatling-http-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/org.jodd/jodd-lagarto/3.8.6/997cd23a7c05cc9c9a55474ba45a0a8078a5d652/jodd-lagarto-3.8.6.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/2.3.1/f0bf9b23929d9cd2de228de0b533c15ddf28df45/gatling-commons-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.3.1/84a413fee33fe24c13993633436d2dbc119a584b/gatling-core-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.3.1/82fb51cba4a82d4c8fb3aa66510592eaa1188b8e/gatling-http-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/2.3.1/f0bf9b23929d9cd2de228de0b533c15ddf28df45/gatling-commons-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.3.1/84a413fee33fe24c13993633436d2dbc119a584b/gatling-core-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.3.1/82fb51cba4a82d4c8fb3aa66510592eaa1188b8e/gatling-http-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-commons/2.3.1/f0bf9b23929d9cd2de228de0b533c15ddf28df45/gatling-commons-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.3.1/84a413fee33fe24c13993633436d2dbc119a584b/gatling-core-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.3.1/82fb51cba4a82d4c8fb3aa66510592eaa1188b8e/gatling-http-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-core/2.3.1/84a413fee33fe24c13993633436d2dbc119a584b/gatling-core-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/io.gatling/gatling-http/2.3.1/82fb51cba4a82d4c8fb3aa66510592eaa1188b8e/gatling-http-2.3.1.jar
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala -> /Users/yaoyang/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.3/f2e496f21af2d80b48e0a61773f84c3a76a0d06f/scala-library-2.12.3.jar
+source dependencies:
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala
+external dependencies:
+class names:
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/CsvFeedSimulation.scala -> simulations.CsvFeedSimulation
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/FormPostSimulation.scala -> simulations.FormPostSimulation
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/GetSimulation.scala -> simulations.GetSimulation
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/JsonPostSimulation.scala -> simulations.JsonPostSimulation
+   /Users/yaoyang/code/gatling-gradle-demo1/src/gatling/simulations/base/SimulationBase.scala -> base.SimulationBase

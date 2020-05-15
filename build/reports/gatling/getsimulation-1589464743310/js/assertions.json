@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.GetSimulation",
+  "simulationId": "getsimulation",
+  "start": 1589464743310,
+  "description": "",
+  "scenarios": ["GetSimulation"],
+  "assertions": [
+
+  ]
+}
