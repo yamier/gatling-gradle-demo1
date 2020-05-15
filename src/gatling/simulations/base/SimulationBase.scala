@@ -9,5 +9,4 @@ class SimulationBase extends Simulation {
 
   val httpConf = http.baseURL(host)
 
-  val thinkTime: Int = 5
 }
