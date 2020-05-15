@@ -1,9 +1,7 @@
 package simulations
 
-import base.SimulationBase
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-import scala.concurrent.duration._
 
 class GetHomeSimulation extends Simulation {
   //设置请求的根路径

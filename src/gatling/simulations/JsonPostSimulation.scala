@@ -28,7 +28,7 @@ class JsonPostSimulation extends SimulationBase {
       .exec(http("test_json_file")   //http 请求name
         .post("/computers/new")     //post url
         .headers(headers_json)  //设置body数据格式
-        //将json参数用StringBody包起,并作为参数传递给function body()
+        //将json文件作为参数传递给function body()
         .body(ElFileBody(fileName)).asJSON)
 
   }

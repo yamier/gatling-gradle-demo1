@@ -3,7 +3,6 @@ package simulations
 import base.SimulationBase
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
-import scala.concurrent.duration._
 
 class GetComputorSimulation extends SimulationBase {
 
@@ -12,9 +11,9 @@ class GetComputorSimulation extends SimulationBase {
   }
 
   object Search {
-    val search = exec(http("Search Computor") // let's give proper names, as they are displayed in the reports
+    val search = exec(http("Search Computor")
       .get("/"))
-      .pause(7)
+      .pause(7) //think time
       .exec(http("Search")
         .get("/computers?f=Macbook"))
       .pause(2)
